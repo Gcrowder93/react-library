@@ -20,8 +20,6 @@ function App() {
           <Route path="/books">
             <BookList />
           </Route>
-          <Route path="/" component={Home} />
-          <Route path="/books/:title" render={BookList} />
         </Switch>
       </BrowserRouter>
     </main>
