@@ -16,8 +16,7 @@ function App() {
             <BookList />
           </Route>
           <Route path="/" component={Home} />
-          <Route path="/books/:id" component={Book} />
-          {/* <Route path="/" component={} /> */}
+          <Route path="/books/:title" render={BookList} />
         </Switch>
       </BrowserRouter>
     </main>
